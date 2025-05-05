@@ -1,0 +1,35 @@
+.frame {
+    width: 400px;
+    height: 400px;
+    /*background-color: #000000;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to top right, #784ec1, #35e1dc);
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    width: 200px;
+    height: 100px;
+    background-color: #fff3;
+}
+
+/* 后代选择器 */
+.number .one_1 {
+    height: 40px;
+    width: 20px;
+    background: #ffffff;
+    border-radius: 3px;
+    transform: rotate(50deg);
+}
